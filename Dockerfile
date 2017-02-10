@@ -7,5 +7,5 @@ ENV MINIMA_VERSION  2.1.0
 
 RUN apk add --update bash build-base libffi-dev openssh rsync
 RUN gem install bundler
-RUN gem install jekyll -v 3.4.0
-RUN gem install minima -v 2.1.0
+RUN gem install jekyll -v $JEKYLL_VERSION
+RUN gem install minima -v $MINIMA_VERSION
