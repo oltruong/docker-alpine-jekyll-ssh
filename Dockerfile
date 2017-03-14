@@ -2,7 +2,7 @@ FROM ruby:2.4.0-alpine
 
 LABEL maintainer oltruong<contact@oltruong.com>
 
-ENV JEKYLL_VERSION  3.4.0
+ENV JEKYLL_VERSION  3.4.2
 ENV MINIMA_VERSION  2.1.0
 ENV JEKYLL_SITE_MAP 1.0.0
 
