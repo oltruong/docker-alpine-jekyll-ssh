@@ -1,4 +1,4 @@
-FROM ruby:2.6.0-alpine3.7
+FROM ruby:2.7.1-alpine3.11
 
 LABEL maintainer oltruong<contact@oltruong.com>
 
